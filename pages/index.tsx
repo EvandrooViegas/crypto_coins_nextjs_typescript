@@ -13,9 +13,7 @@ export default function Home({coins}:Props) {
   
   useEffect(() => {
     setQuery(coins.filter(coin => coin.id.includes(text)))
-    console.log(query)
-    console.log(text)
-  }, [text, coins, query])
+  }, [text])
   return (
     <div>
       <div className="flex justify-center">
