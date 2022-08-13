@@ -15,7 +15,7 @@ export default function Home({coins}:Props) {
     setQuery(coins.filter(coin => coin.id.includes(text)))
     console.log(query)
     console.log(text)
-  }, [text])
+  }, [text, coins, query])
   return (
     <div>
       <div className="flex justify-center">
