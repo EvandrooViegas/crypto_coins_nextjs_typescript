@@ -27,7 +27,7 @@ function coin({coin} : Props) {
                         <button className="w-[100%] p-2 m-2 ml-auto border-[1px] border-gray-400 text-black rounded-md transition hover:bg-indigo-500 hover:text-white">Official Website</button>
                 
                     </Link> : 
-                    <p className='w-[100%] p-2 m-2 ml-auto border-[1px] border-gray-400 text-black rounded-md transition hover:bg-indigo-500 hover:text-white'>Coin don't have a website!</p>
+                    <p className='w-[100%] p-2 m-2 ml-auto border-[1px] border-gray-400 text-black rounded-md transition hover:bg-indigo-500 hover:text-white'>Coin dont have a website!</p>
                 }
             </div>
         </div>
